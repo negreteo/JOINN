@@ -7,6 +7,9 @@ import { ToastrModule } from 'ngx-toastr';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+// ui-app module components
+import { UiAppModule } from './ui-app/ui-app.module';
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -15,6 +18,7 @@ import { AppComponent } from './app.component';
     CommonModule,
     BrowserAnimationsModule, // required animations module
     ToastrModule.forRoot(), // ToastrModule added
+    UiAppModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

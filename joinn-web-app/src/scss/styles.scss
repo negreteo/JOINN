@@ -1,0 +1,26 @@
+@import '~primeng/resources/primeng.min.css';
+@import 'utilities';
+
+// APPLICATION
+
+html {
+  font-size: $default-font-size;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+  //font-size: 1.125rem;
+  //font-weight: 300;
+  //color: #495664;
+  //line-height: 1.75rem;
+}
